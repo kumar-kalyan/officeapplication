@@ -52,7 +52,7 @@ app.get('/createproject', (req, res) => {
 });
 
 app.use('/', router);
-app.listen(8000);
+app.listen(process.env.PORT || 8000);
 console.log('Listening to PORT 8000');
 app.use('/users', require('./routes/user_routes'));
 app.use('/projects', require('./routes/project_routes'));
