@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeftoutarTechnologies |All Projects</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="table-responsive">
+      <table class="table table-borderless">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Project ID</th>
+            <th scope="col">Project Name</th>
+            <th scope="col">Client</th>
+            <th scope="col">Client Email</th>
+            <th scope="col">is Submitted</th>
+            <th scope="col">Project Value</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {{#each array}}
+          <tr>
+            <td>{{id}}</td>
+            <td>{{projectName}}</td>
+            <td>{{client}}</td>
+            <td>{{clientEmail}}</td>
+            <td>{{isSubmitted}}</td>
+            <td>$ {{projectValue}}</td>
+            <td>
+              <a href="/projects/{{id}}" class="btn btn-danger">Update</a>
+            </td>
+            <td>
+              <form action="/projects/{{id}}?_method=DELETE" method="post">
+                <button type="submit" class="btn btn-primary">
+                  Delete Project
+                </button>
+              </form>
+            </td>
+            {{/each}}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

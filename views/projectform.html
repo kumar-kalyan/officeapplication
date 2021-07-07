@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="style.css" />
+<title>Create Project</title>
+<div class="container">
+  <h1 class="text-center">Create A project</h1>
+  <form action="/projects" method="post">
+    <div class="input-group mb-3">
+      <span class="input-group-text">ProjectName</span>
+      <input
+        type="text"
+        class="form-control"
+        id="projectName"
+        name="projectName"
+      />
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">client</span>
+      <input type="text" class="form-control" id="client" name="client" />
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">clientEmail</span
+      ><input
+        type="text"
+        class="form-control"
+        id="clientEmail"
+        name="clientEmail"
+      />
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-text">projectDetails</span>
+      <textarea
+        class="form-control"
+        id="projectDetails"
+        name="projectDetails"
+        rows="18"
+        aria-label="With textarea"
+      ></textarea>
+    </div>
+    <br />
+    <div class="input-group mb-3">
+      <span class="input-group-text">lastDate</span
+      ><input type="date" class="form-control" id="lastDate" name="lastDate" />
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">projectValue</span>
+      <span class="input-group-text btn-primary">$</span
+      ><input
+        type="text"
+        class="form-control"
+        id="projectValue"
+        name="projectValue"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary">confirm</button>
+  </form>
+</div>
