@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "My test app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kum9748ar/officeapplication.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Kumar Kalyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kum9748ar/officeapplication/issues"
+  },
+  "homepage": "https://github.com/kum9748ar/officeapplication#readme"
+}
