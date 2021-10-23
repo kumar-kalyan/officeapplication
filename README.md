@@ -16,6 +16,7 @@
 Create, pudate and delet client, employee and proect details 
 
 # Upcoming releases 
+Authentication
 Project deadline notification 
 Separate, Admin , user and client dashboard 
 Email and chat support 
