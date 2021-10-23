@@ -1,8 +1,10 @@
 # officeapplication
-Intro:
+
+# Introduction 
  An application for storing employee,clients and propject reports 
  This project is currently under developement 
- Techstacks used: 
+ 
+# Techstacks used: 
  Mongodb 
  Expressjs
  Nodejs 
@@ -10,10 +12,10 @@ Intro:
  html
  css 
  
-#Current features 
+# Current features 
 Create, pudate and delet client, employee and proect details 
 
-#Upcoming releases 
+# Upcoming releases 
 Project deadline notification 
 Separate, Admin , user and client dashboard 
 Email and chat support 
